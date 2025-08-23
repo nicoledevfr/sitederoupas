@@ -57,4 +57,17 @@ a {
     margin: auto;
 
 }
+#coleçãomodelo {
+    max-width: 100%;
+    height: auto;
+    margin: 60px 0px 0px 0px;
+    
+ 
 
+}
+#anuncio {
+    position: absolute;
+    top: 1300px;
+    color: whitesmoke;
+
+}
