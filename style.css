@@ -4,7 +4,7 @@
 
 :root {
     
-    --cor--01: #3D4227;
+    --cor--01: #293B14;
     --cor--02: #A79482;
     --cor--03: #593A2E;
     --font--01: "Nata Sans", sans-serif;
@@ -36,7 +36,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    
    
    
     
@@ -56,26 +56,81 @@ a {
 .menu {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 2vh;
     margin: auto;
 
+}
+.menu :hover {
+    color: var(--cor--03);
 }
 #imagemmodelo {
     max-width: 100%;
     height: auto;
-    margin: 60px 0px 0px 0px;
+    margin: 170px 0px 0px 0px;
     
  
 
 }
 #anuncio {
-    
-    color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-family: var(--font--01);
+    color: var(--cor--01);
+    font-size: 2.5vh;
     position: absolute;
-    top: 24em;
-    left: 1vh;
-    font-size: clamp(2px, 3vw, 22px);
+    top: 30%;
+    left: 2.3vh;
+}
+#explore {
+ background-color: var(--cor--02);
+ padding: 0.5em;
+ border-radius: 10vh;
+ position: absolute;
+ top: 23em;
+ left: 40px;
+}
+#explore :hover {
+    color: var(--cor--03);
+    
+}
+produtos {
+  
+}
+
+
+#produtos >img {
+    margin: 10px 10px 10px 10px;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 6px 10px 50px 10px;
+    background-color: #e9eae4;
+    border-radius: 12px;
+    position: relative;
+    align-items: center;
+   
+}
+#fraseconfira {
+    font-family: var(--font--01);
+    color: var(--cor--01);
+    text-align: center;
+    margin: 40px 10px 10px 10px;
+    
+}
+
+#frasedeefeito {
+    color: var(--cor--01);
+    background-color: var(--cor--03);
+    font-family: var(--font--01);
+    font-size: 3em;
+    font-style: italic;
+    height: 50px;
+    width: 900px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10%;
+    
+}
+#frasedeefeito :hover {
+    color: var(--cor--03);
+    background-color: var(--cor--01);
 }
 
 
