@@ -16,9 +16,7 @@ body {
 }
 
 .logomarca {
-  font-family: var(--font--02);
-  font-size: 3.5em;
-  font-weight: bold;
+  font: normal normal bold 3.5em var(--font--02);
   color: #3D4227;
   margin: 0.5em;
   display: flex;
@@ -36,9 +34,7 @@ nav {
 a {
   text-decoration: none;
   color: #3D4227;
-  font-family: var(--font--01);
-  font-size: 1.2em;
-  font-weight: bold;
+  font: normal bold 1.2em var(--font--01);
   transition: 1ms;
 }
 
@@ -54,7 +50,6 @@ html {
 }
 
 #home {
-
   background-image: url("imagens/colecao4.jpg");
   background-size: cover;
   background-position: center;
@@ -76,8 +71,6 @@ html {
   max-width: 500px;
   margin: 5px;
 }
-
-
 
 .menu :hover {
   color: var(--cor--03);
@@ -110,8 +103,7 @@ html {
   font-family: var(--font--01);
   color: var(--cor--01);
   text-align: center;
-  margin: 5em
-  
+  margin: 5em;  
 }
 
 #frasedeefeito {
@@ -159,9 +151,7 @@ html {
   background-color: #e8e4e4;
   border-radius: 1em;
 }
-.preço {
-  justify-content: ;
-}
+
 #cardcoleção {
   background-color: var(--cor--02);
   font-family: var(--font--01);
